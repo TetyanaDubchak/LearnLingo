@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/455.efffe86f.chunk.js","mappings":"0JAQA,UAPiB,WACb,OACIA,EAAAA,EAAAA,KAAAC,EAAAA,SAAA,GAGR,C","sources":["pages/Teachers.jsx"],"sourcesContent":["\nconst Teachers = () => {\n    return (\n        <>\n        </>\n    );\n}\n\nexport default Teachers;"],"names":["_jsx","_Fragment"],"sourceRoot":""}

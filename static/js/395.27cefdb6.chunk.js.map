@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/395.27cefdb6.chunk.js","mappings":"2JAQA,UAPkB,WACd,OACIA,EAAAA,EAAAA,KAAAC,EAAAA,SAAA,GAGR,C","sources":["pages/Favorites.jsx"],"sourcesContent":["\nconst Favorites = () => {\n    return (\n        <>\n        </>\n    );\n}\n\nexport default Favorites;"],"names":["_jsx","_Fragment"],"sourceRoot":""}
