@@ -20,8 +20,8 @@ export const TeachersList = () => {
     console.log(teachersList);
     return (
         <ul>
-            {teachersList.map((item) => (
-                <li key={item.lesson_done}>
+            {teachersList.map((item, index) => (
+                <li key={index}>
                     <TeacherItem item={ item} />
                 </li>
             ))}

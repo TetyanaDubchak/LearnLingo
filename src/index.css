@@ -14,9 +14,11 @@ code {
 }
 
 .container{
-  max-width: 1312px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 64px;
+  padding-right: 64px;
 }
 
 ol,
@@ -28,6 +30,7 @@ a {
   color: currentColor;
   text-decoration: none;
  }
+ 
 img {
    display: block;
    max-width: 100%;

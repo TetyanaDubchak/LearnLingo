@@ -3,7 +3,7 @@
 export const TeacherItem = ({item}) => {
 
     return (
-        <li>
+        <>
             <div>
                 <img src={item.avatar_url} alt='Teacher' />
             </div>
@@ -48,6 +48,6 @@ export const TeacherItem = ({item}) => {
                     </ul>
                 </div>
             </div>
-        </li>
+        </>
     )
 }

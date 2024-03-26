@@ -1,19 +1,16 @@
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
-import { NavLink } from "react-router-dom";
 
 import { Container } from "./SharedLayout.styled";
+import { Navigation } from "components/Navigation/Navigation";
+import { AppBar } from "components/AppBar/AppBar";
 
 export const SharedLayout = () => {
 
     return (
         <Container>
             <header>
-                <nav>
-                    <NavLink to="/" end>Home</NavLink>
-                    <NavLink to="/teachers">Teachers</NavLink>
-                    <NavLink to="/favorites">Favorites</NavLink>
-                </nav>
+                <AppBar/>
             </header>
             <Suspense fallback={<div>Loading page...</div>}>
                 <Outlet/>
